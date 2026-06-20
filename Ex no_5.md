@@ -1,7 +1,7 @@
-# EX 5 C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
+# EX 5 Write a C program to calculate total marks, average and percentage of six subjects.
 ## DATE:
 ## AIM:
-To write a C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
+To write a C program to calculate the total marks, average and percentage of six subjects.
 
 ## Algorithm
 1. Start. 
@@ -13,23 +13,24 @@ To write a C program to calculate the total marks, average, and percentage of ma
 7. End.
 ## Program:
 ```
- 
-#include <stdio.h> 
-int main() { 
-    int sub1, sub2, sub3, total; 
-    float average; 
-    scanf("%d %d %d", &sub1,&sub2,&sub3); 
-    total = sub1 + sub2 + sub3; 
-    average = total / 3.0; 
-    printf("\nTotal : %d\n", total); 
-    printf("Average : %.2f\n", average); 
-    return 0; 
+#include <stdio.h>
+int main()
+{
+    float a,b,c,d,e,f;
+    float total,average,percentage;
+    scanf("%f%f%f%f%f%f",&a,&b,&c,&d,&e,&f);
+    total = a+b+c+d+e+f;
+    average = (a+b+c+d+e+f)/6.0;
+    percentage = (total/600)*100;
+    printf("Total marks = %.2f\n",total);
+    printf("Average marks = %.2f\n",average);
+    printf("Percentage = %.2f\n",percentage);
+    return 0;
 }
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/7cae4230-0e30-47e9-b08c-3d3374f398d8)
-
+<img width="1175" height="415" alt="WhatsApp Image 2026-06-08 at 1 48 55 PM" src="https://github.com/user-attachments/assets/4be450a7-335f-4255-b902-37bb3fbe1fa6" />
 
 
 ## Result:
