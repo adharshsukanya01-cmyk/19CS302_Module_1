@@ -33,5 +33,6 @@ int main()
 <img width="1175" height="415" alt="WhatsApp Image 2026-06-08 at 1 48 55 PM" src="https://github.com/user-attachments/assets/4be450a7-335f-4255-b902-37bb3fbe1fa6" />
 
 
+
 ## Result:
 Thus the program was executed and the output was verified successfully.
